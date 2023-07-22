@@ -16,7 +16,24 @@
         "name": "next"
       }
     ],
-    "types": ["jest", "node"]
+    "types": ["jest", "node"],
+    "baseUrl": "./src",
+    "paths": {
+      "@elements/*": ["common/components/elements/*"],
+      "@components/*": ["common/components/*"],
+      "@hoc/*": ["common/hoc/*"],
+      "@hooks/*": ["common/hooks/*"],
+      "@layouts/*": ["common/layouts/*"],
+      "@config/*": ["core/config/*"],
+      "@constants/*": ["core/constants/*"],
+      "@services/*": ["core/services/*"],
+      "@appTypes/*": ["core/types/*"],
+      "@utils/*": ["core/utils/*"],
+      "@lib/*": ["lib/*"],
+      "@modules/*": ["modules/*"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"]
+    }
   },
   "include": [
     "**/*.ts",
