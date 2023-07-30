@@ -1,4 +1,9 @@
-# PortfolioV2
+![](https://img.shields.io/badge/Incomplete-FFB481?style=for-the-badge)&nbsp;
+![](https://img.shields.io/badge/Inactive-DBC51B?style=for-the-badge)
+
+# NX: NextJS + Payload CMS
+
+Attempting to building a mono-repo for NextJS & Payload CMS. The packages works well expect for Tailwind autogeneration in NextJS
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
